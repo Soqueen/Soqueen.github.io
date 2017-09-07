@@ -1,0 +1,218 @@
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	#about{
+  		margin-top:500px;
+  	}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  	#about{
+  		margin-top:0px;
+  		color:#605f5f;
+  	}
+}
+
+body{
+	background: center fixed;	
+	color: #dcdcdc;
+	/*#E6CEF8*/
+	height: 100%;
+	margin-left: 180px;	
+}	
+
+h1{
+	color: rgb(255, 218, 105);
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+/*Test Smooth Scroll*/
+#business{
+	padding-bottom: 500px;
+}
+
+@media (max-width: 768px){
+	body{
+		margin-left: 0px;
+	}
+}
+
+@media (min-width: 768px) {
+	nav{
+		max-width: 180px;
+	}
+
+	nav > .container{
+		max-width: 180px;
+	}
+
+	.container ul{
+		/*margin-left: -15px;*/
+		margin-right: -15px;
+	}
+
+	.navbar{
+		max-width: 250px;
+		min-height: 100%;
+		/*border-right: 1px solid green;*/
+	}
+
+	.navbar-inverse {
+    background-color: #02c9c9;
+	}
+
+	.nav-bottom{
+		position: fixed;
+		bottom: 10px;		
+		width: 180px;
+		margin-left: -15px;
+	}	
+
+	.row{
+		margin-right: 15px;
+	}	
+
+	#myForm{
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar{
+		/*border-bottom: 1px solid green;*/
+	}
+
+	.nav-bottom{
+		padding-left: 15px;
+		padding-bottom: 10px;
+	}
+
+	.row{
+		margin-left: -5px;
+	}
+}
+
+.content{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+.black-bg{
+	background-color: #333;
+}
+
+.theme-yellow {background-color:black;}
+.theme-black {color:#333;}
+.theme-darkblue {color:#002130;}
+.theme-pink {background-color:#e9a1b9;}
+.theme-green {color:#c2d53f;}
+.theme-blue {color:#02c9c9;}
+.theme-gray {color:#605f5f;}
+.theme-lightgray {color:#dcdcdc;}
+.theme-lightblue {color:#b7d3d3;}
+
+.full-width{
+	width: 100%;
+}
+
+.centered{
+	text-align: center;
+}
+
+.top-content{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.main-content{
+	margin-left: 300px;
+}
+
+i:hover{
+	opacity: 0.5;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffc300;
+    font-size: xx-large;
+    font-family: 'AdamDrawn';
+    src: url('../fonts/adamfont-webfont.eot');
+    src: url('../fonts/adamfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/adamfont-webfont.woff') format('woff'),
+         url('../fonts/adamfont-webfont.ttf') format('truetype'),
+         url('../fonts/adamfont-webfont.svg#adamdrawnstandard') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[type=text]{
+	box-shadow: none !important;
+}
+
+input[type=text]:focus, input[type=email]:focus{
+	outline-color: transparent;
+	box-shadow: none;
+	border-color: #ccc;
+	/*padding-left: 10px;*/
+}
+
+textarea{
+	box-shadow: none !important;
+	border-radius: 4px !important;
+	resize: none;
+}
+
+textarea:focus{
+	outline-color: transparent !important;
+	border-color: #ccc !important;
+	/*padding-left: 10px !important;*/
+}
+
+.help-block{
+	color: white;
+}
+
+.btn-custom{
+	border-radius: 6px !important;
+	background-color: #FFF;
+	color: black;
+	font-weight: bold;
+	width: 100%;
+}
+
+.btn-custom:hover{
+	color: black;
+	background-color: #adadad;
+}
+
+.btn-custom:active{
+	color: black;
+	background-color: #5C6166;
+}
+
+/* Boostrap */
+.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: rgb(96, 100, 100);
+}
+.navbar-inverse .navbar-nav>.active>a{
+	background-color: #02c9c9;
+	font-size: medium;
+}
+#contact{
+	color:#9F8484;
+}
+
+#project {
+	color:#605f5f;
+	font-size: 18px;
+}
